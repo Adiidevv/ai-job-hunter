@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Uploaded files and personal documents
+uploads/
+
+# Local database files
+*.sqlite
+*.db
+*.dump
+*.sql.backup
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
